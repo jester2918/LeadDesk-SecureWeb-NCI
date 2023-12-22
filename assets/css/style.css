@@ -1,0 +1,31 @@
+.main-menu.menu-dark,.main-menu.menu-dark .navigation,.navbar-semi-dark .navbar-header,.main-menu.menu-dark .navigation > li > ul{
+	background: linear-gradient(to right, #004e92, #000428) !important;
+}
+.main-menu.menu-dark .navigation > li.hover > a, .main-menu.menu-dark .navigation > li:hover > a, .main-menu.menu-dark .navigation > li.active > a,.main-menu.menu-dark .navigation > li.open .hover > a{
+	background: #004e92 !important;
+}
+.main-menu.menu-dark .navigation > li.open > a{
+	background: #004e92 !important;
+}
+@media screen and (max-width: 1199.98px){
+	.header-navbar .navbar-container ul.nav li a.dropdown-user-link {
+		padding: 1rem 0.6rem;
+	}
+	form#changeCompany {
+		padding: 0.85rem 0.6rem;
+	}
+}
+@media screen and (max-width: 991.98px) {
+	.header-navbar .navbar-header .navbar-brand {
+		position: absolute !important;
+		left: 50%!important;
+		top: 50%!important;
+		transform: translate(-50%, -50%)!important;
+		width: 30%;
+	}
+}
+@media screen and (max-width: 425px) {
+	.header-navbar .navbar-header .navbar-brand {
+		width: 60%;
+	}
+}
